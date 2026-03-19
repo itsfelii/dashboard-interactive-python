@@ -361,7 +361,7 @@ with col2Main:
     # ----------------------------------------------------------------
     # --------------- tabla de countries -----------------------------
     
-    st.dataframe(datos.revenue_countries , height = 196.5)
+    st.dataframe(datos.revenue_countries , height = 197)
 
 st.dataframe(datos.df)
      
