@@ -13,7 +13,7 @@ from pandasAnylisis import InvoiceData , limpiar_df
 
 @st.cache_data
 def ReadCSV():
-    return pd.read_csv('onret.csv' , parse_dates=['InvoiceDate'] , dtype={
+    return pd.read_csv('onret.zip' , parse_dates=['InvoiceDate'] , dtype={
             "Customer ID": "float32",
             "Quantity": "int32",
             "Price": "float32",
